@@ -1,12 +1,45 @@
-# React + Vite
+# 📝 React Registration Table with Search & Edit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple React application that displays a dynamic registration table with search and inline editing features.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display user data in a table  
+- Live search across all fields (name, age, city, etc.)  
+- Edit row data directly in the table  
+- Save and cancel edit actions  
+- Styled with basic CSS for a clean UI
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (useState hook)  
+- Vite (development server)  
+- CSS (table and form styling)
+
+## 📁 Project Structure
+
+react-registration-table/  
+├── public/  
+├── src/  
+│   ├── assets/  
+│   │   └── react.svg  
+│   ├── App.css  
+│   ├── App.jsx  
+│   └── main.jsx  
+├── index.html  
+├── package.json  
+└── vite.config.js
+
+## ⚙️ How to Run the App
+
+1. Clone the repository  
+```bash
+git clone https://github.com/yourusername/react-registration-table.git  
+cd react-registration-table
+Install dependencies
+
+bash
+Copy
+Edit
+npm installnpm run dev
+
