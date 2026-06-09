@@ -1,4 +1,4 @@
-# 📝 React Registration Table with Search & Edit
+# 📝 React Registration Table with Search & Edi
 
 This project is a simple React application that displays a dynamic registration table with search and inline editing features.
 
